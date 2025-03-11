@@ -1,0 +1,79 @@
+form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #f29c11;
+    outline: none;
+}
+
+form button {
+    background-color: #f29c11;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e68908;
+}
+
+form .checkbox {
+    margin: 15px 0;
+}
+
+form .checkbox label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+form .checkbox input {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    form h2 {
+        font-size: 1.6em;
+    }
+}
